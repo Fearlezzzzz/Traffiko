@@ -1,0 +1,682 @@
+body {
+    background-color: white;
+}
+
+#mainlogo {
+    height:270px;
+    width: 280px;
+    margin-left: 50px;
+    margin-top: -30px;
+}
+
+#top {
+    margin-top: 60px;
+    font-family: sans-serif;
+    font-size: 0;
+    margin-top: -180px;
+    
+}
+
+#home {
+    margin-left: 380px;
+    color: #4056F4;
+    font-size: 15px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+#home:hover {
+    color: #4056F4;
+    font-size: 15px;
+    font-weight: 800;
+}
+
+#pricing {
+    margin-left: 80px;
+    padding: 16px;
+    color: black;
+    font-size: 15px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+#mydashboard {
+    margin-left: 80px;
+    padding: 16px;
+    color: black;
+    font-size: 15px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+#features {
+    margin-left: 60px;
+    padding: 16px;
+    color: black;
+    font-size: 15px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+#faqs {
+    margin-left: 80px;
+    padding: 16px;
+    color: black;
+    font-size: 15px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+
+#login {
+    border-color: #4056F4 ;
+    border-radius: 10px;
+    border-width: 2px;
+    margin-left: 80px;
+    padding: 16px;
+    color: #4056F4;
+    background-color: white;
+    width: 120px;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+#signup {
+    border-color: #4056F4 ;
+    border-radius: 10px;
+    border-width: 2px;
+    margin-left: 6px;
+    padding: 16px;
+    color: white;
+    background-color: #4056F4;
+    width: 120px;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.mid {
+    font-size: 0;
+}
+
+.accurate{
+    margin-left: 150px;
+    margin-top: -500px;
+    font-size: 70px;
+    font-family:  sans-serif;
+    font-weight: 500;
+}
+
+.wave {
+    --c:yellow;   /* Color */
+    --t:5px;   /* Thickness */
+    --h:30px;  /* Height  */
+    --w:76px; /* Width  */
+    --p:13px;  /* adjust this to correct the position when changing the other values*/
+    
+    margin-top: -60px;
+    margin-left: 150px;
+    width:calc(var(--w)*8);
+    height:calc(var(--h) + 10px);
+    overflow:hidden;
+    position:relative;
+  }
+  .wave:before {
+    content:"";
+    position:absolute;
+    padding:5px 0;
+    top:0;
+    left:0;
+    width:200%;
+    bottom:0;
+    
+    background:
+      radial-gradient(farthest-side at 50% calc(100% + var(--p)), transparent 47%, var(--c) 50% calc(50% + var(--t)),transparent calc(52% + var(--t))),
+      radial-gradient(farthest-side at 50% calc(0%   - var(--p)), transparent 47%, var(--c) 50% calc(50% + var(--t)),transparent calc(52% + var(--t)));
+      
+    background-size:var(--w) var(--h);
+    background-position:calc(var(--w)/2) calc(-1*(var(--h)/2)),0px calc(var(--h)/2);
+    background-repeat:repeat-x;
+    background-origin:content-box;
+    
+    animation:move 3s infinite linear;
+  }
+  
+  @keyframes move {
+    to {
+     transform:translateX(-50%);
+    }
+  }
+
+.blue {
+    margin-left: 150px;
+    margin-top: -50px;
+    font-size: 70px;
+    font-family:  sans-serif;
+    font-weight: 700;
+    color: #4056F4;
+}
+
+.everyday{
+    margin-left: 150px;
+    margin-top: -8px;
+    font-size: 70px;
+    font-family:  sans-serif;
+    font-weight: 500;
+}
+
+#navimg1 {
+    height: 500px;
+    width: 500px;
+    margin-left: 900px;
+    margin-top: 300px;
+}
+
+.note{
+    margin-left: 150px;
+    margin-top: -20px;
+    font-size: 20px;
+    font-family:  sans-serif;
+    font-weight: 500;
+}
+
+#getstarted {
+    border-color: #4056F4 ;
+    border-radius: 10px;
+    border-width: 2px;
+    margin-top: 15px;
+    margin-left: 150px;
+    padding: 16px;
+    color: white;
+    background-color: #4056F4;
+    width: 130px;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+#getstarted:hover {
+    border-color: #4056F4 ;
+    border-radius: 10px;
+    border-width: 2px;
+    margin-top: 15px;
+    margin-left: 150px;
+    padding: 16px;
+    color: white;
+    background-color: #4552b6;
+    width: 130px;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+#watchvideo {
+    border-color: #4056F4;
+    border-radius: 10px;
+    border-width: 2px;
+    margin-left: 4px;
+    padding: 16px;
+    color: #4056F4;
+    background-color: white;
+    width: 160px;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+#watchvideo:hover {
+    border-color: #4056F4;
+    border-radius: 10px;
+    border-width: 2px;
+    margin-left: 4px;
+    padding: 16px;
+    color: #4056F4;
+    background-color: whitespace;
+    width: 160px;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.why {
+    margin-left: 650px;
+    margin-top: 400px;
+    font-size: 40px;
+    font-family:  sans-serif;
+    font-weight: 700;
+    color: #4056F4;
+}
+
+.note2{
+    margin-left: 620px;
+    font-size: 14px;
+    font-family:  sans-serif;
+    font-weight: 500;
+}
+
+.note3{
+    margin-left: 10px;
+    font-size: 18px;
+    font-family:  sans-serif;
+    font-weight: 500;
+}
+
+.boxes {
+    margin-top: 100px;
+    margin-left: 150px;
+    height: 300px;
+    width: 900px;
+    background-color: white;
+    border: none;
+}
+
+.boxone {
+    margin-top: 100px;
+    margin-left: 150px;
+    height: 300px;
+    width: 280px;
+    background-color: yellow;
+    border: none;
+}
+
+#navimg2 {
+    height:200px;
+    width: 200px;
+    margin-left: 50px;
+    margin-top: 15px;
+}
+
+.miniboxone {
+    margin-top: -3px;
+    margin-left: -10px;
+    margin-right: -15.5px;
+    height: 298px;
+    width: 340px;
+    background-color: white;
+    border: none;
+    box-shadow: rgb(204, 219, 232) 8px 8px;
+}
+
+.boxtwo {
+    margin-top: -315px;
+    margin-left: 615px;
+    height: 300px;
+    width: 280px;
+    background-color: yellow;
+    border: none;
+}
+
+#navimg3 {
+    height:200px;
+    width: 200px;
+    margin-left: 50px;
+    margin-top: 0px;
+}
+
+.miniboxtwo {
+    margin-top: -3px;
+    margin-left: -16px;
+    margin-right: -15.5px;
+    height: 298px;
+    width: 340px;
+    background-color: white;
+    border: none;
+    box-shadow: rgb(204, 219, 232) 0px 8px;
+}
+
+.boxthree {
+    margin-top: -315px;
+    margin-left: 1080px;
+    height: 300px;
+    width: 280px;
+    background-color: yellow;
+    border: none;
+}
+
+#navimg4 {
+    height:200px;
+    width: 200px;
+    margin-left: 50px;
+    margin-top: 0px;
+}
+
+.miniboxthree {
+    margin-top: -3px;
+    margin-left: -16px;
+    margin-right: -10px;
+    height: 298px;
+    width: 340px;
+    background-color: white;
+    border: none;
+    box-shadow: rgb(204, 219, 232) -8px 8px;
+}
+
+.a100 {
+    margin-left: 370px;
+    margin-top: 200px;
+    font-size: 40px;
+    font-family:  sans-serif;
+    font-weight: 700;
+    color: black;
+}
+.note5{
+    margin-left: 350px;
+    margin-top: -10px;
+    font-size: 20px;
+    font-family:  sans-serif;
+    font-weight: 500;
+}
+
+.a200 {
+    margin-left: 770px;
+    margin-top: -110px;
+    font-size: 40px;
+    font-family:  sans-serif;
+    font-weight: 700;
+    color: black;
+}
+.note6{
+    margin-left: 760px;
+    margin-top: -5px;
+    font-size: 20px;
+    font-family:  sans-serif;
+    font-weight: 500;
+}
+
+.a300 {
+    margin-left: 1150px;
+    margin-top: -110px;
+    font-size: 40px;
+    font-family:  sans-serif;
+    font-weight: 700;
+    color: black;
+}
+.note7{
+    margin-left: 1140px;
+    margin-top: -5px;
+    font-size: 20px;
+    font-family:  sans-serif;
+    font-weight: 500;
+}
+
+.note8{
+    margin-left: 580px;
+    font-size: 20px;
+    font-family:  sans-serif;
+    font-weight: 700;
+}
+
+#note8 {
+    margin-top: 160px;
+}
+
+#traffi{
+    margin-left: 970px;
+    margin-top: -42px;
+    font-size: 20px;
+    font-family:  sans-serif;
+    font-weight: 700;
+    color: yellow;
+}
+
+#ko{
+    margin-left: 1020px;
+    margin-top: -43px;
+    font-size: 20px;
+    font-family:  sans-serif;
+    font-weight: 700;
+    color: #4056F4;
+}
+
+hr{
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+#navimg5 {
+    height:60px;
+    width: 170px;
+    margin-left: 300px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+#navimg6 {
+    height:90px;
+    width: 160px;
+    margin-left: 50px;
+    margin-top: 10px;
+    margin-bottom: 4px;
+}
+
+#navimg7 {
+    height:110px;
+    width: 150px;
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: -2px;
+}
+
+#navimg8 {
+    height:100px;
+    width: 150px;
+    margin-left: 16px;
+    margin-top: 10px;
+    margin-bottom: -2px;
+}
+
+#navimg9 {
+    height:100px;
+    width: 150px;
+    margin-left: -8px;
+    margin-top: 10px;
+    margin-bottom: -2px;
+}
+
+#navimg10 {
+    height:100px;
+    width: 150px;
+    margin-left: -8px;
+    margin-top: 10px;
+    margin-bottom: -2px;
+}
+
+.blue2 {
+    margin-left: 150px;
+    margin-top: 320px;
+    font-size: 40px;
+    font-family:  sans-serif;
+    font-weight: 700;
+    color: #4056F4;
+}
+
+.note9{
+    margin-left: 150px;
+    margin-top: 70px;
+    font-size: 20px;
+    font-family:  sans-serif;
+    font-weight: 500;
+}
+
+#learnmore {
+    border: none;
+    border-radius: 10px;
+    border-width: 2px;
+    margin-left: 150px;
+    padding: 16px;
+    color: white;
+    background-color: #4056F4;
+    width: 120px;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+#learnmore:hover {
+    border: none;
+    border-radius: 10px;
+    border-width: 2px;
+    margin-left: 150px;
+    padding: 16px;
+    color: white;
+    background-color: #4552b6;
+    width: 120px;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+#newsletter {
+    background-color: #4056F4;
+    height: 350px;
+    margin-top: 400px;
+    border: none;
+}
+
+.newsletter {
+    margin-left: 560px;
+    margin-top: 100px;
+    font-size: 36px;
+    font-family:  sans-serif;
+    font-weight: 500;
+    color: white;
+}
+
+.newsletter1 {
+    margin-left: 500px;
+    margin-top: -16px;
+    font-size: 20px;
+    font-family:  sans-serif;
+    font-weight: 500;
+    color: white;
+}
+
+#newsletter2{
+    width: 350px;
+    height: 30px;
+    padding: 0.35em;
+    margin-left: 550px;
+    border-width: 2px;
+    border-radius: 12px;
+    border: none;
+}
+
+#newsletter3{
+    margin-left: 5px;
+    margin-top: 40px;
+    width: 100px;
+    padding: 0.8em;
+    background-color: #1c31d3;
+    border: none;
+    border-radius: 16px;
+    color: white;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+#newsletter3:hover {
+    color: #4056F4;
+    background-color: rgb(193, 185, 240);
+    font-weight: 700;
+    text-decoration: solid;
+}
+
+#homepagelogin{
+    width: 400px;
+    height: 500px;
+    margin-top: 50px;
+    margin-bottom: 150px;
+    margin-left: 600px;
+    border-radius: 24px;
+    background-color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: none; 
+    box-shadow: rgb(204, 219, 232) -10px 10px;
+}
+
+#username,
+#password{
+    padding: 0.5em;
+    border-color: #4056F4;
+    border-width: 1px;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+#passwordreset{
+    text-decoration: none;
+}
+
+#login2 {
+    border-color: #4056F4 ;
+    border-radius: 10px;
+    border-width: 1px;
+    margin-left: 10px;
+    margin-top: 100px;
+    padding: 16px;
+    color: #4056F4;
+    background-color: white;
+    width: 120px;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+#signup2 {
+    border-color: #4056F4 ;
+    border-radius: 10px;
+    border-width: 2px;
+    margin-left: 60px;
+    padding: 16px;
+    color: white;
+    background-color: #4056F4;
+    width: 120px;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+#loginpage {
+    background-color: rgb(255, 255, 255);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+#formlogin{
+    padding-top: 70px;
+    padding-left: 30px;
+}
+
+#loginlogo{
+    height:270px;
+    width: 280px;
+    margin-left: 650px;
+    margin-top: 30px;
+    
+}
+
+#copyright2{
+    height: 40px;
+    background-color: #4056F4;
+    color: white;
+    margin-top: 400px;
+    padding: 5px;
+}
+
+#watchvideo2 {
+    border-color: #4056F4;
+    border-radius: 10px;
+    border-width: 2px;
+    margin-left: 150px;
+    padding: 16px;
+    color: #4056F4;
+    background-color: white;
+    width: 160px;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+#watchvideo2:hover {
+    border-color: #4056F4;
+    border-radius: 10px;
+    border-width: 2px;
+    margin-left: 150px;
+    padding: 16px;
+    color: #4056F4;
+    background-color: whitespace;
+    width: 160px;
+    font-size: 15px;
+    font-weight: 600;
+}

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title> Sign Up for Traffiko </title>
+  <meta name="viewport" content="width=device-width,initial-scale=1" >
+  <link href="../submission/style.css" rel="stylesheet">
+</head>
+<body id="ME-Chat">
+  <div id="logo">
+    <img id="mainlogo" src="/Homepage/traffiko.jpg">
+  </div>
+    <br>
+  <fieldset id="form">
+  <form action="/submission/index.html" method="POST">
+      <h4>
+   <label for="Firstname"><p>Firstname:</p></label>
+   <input type="text" name="Firstname" id="Firstname" required>
+   <br> <br> <br>
+   <label for="Middlename"><p>Middlename:</p></label>
+   <input type="text" name="Middlename" id="Middlename">
+   <br> <br> <br>
+   <label for="Lastname"><p>Lastname:</p></label>
+   <input type="text" name="Lastname" id="Lastname" required>
+  <br> <br> <br>
+  <label for="Username"><p>Username:</p></label>
+  <input type="text" name="Username" id="Username" minlength="6" maxlength="16" placeholder="Enter Username" required>
+  </h4>
+  <br>
+  <h4><p>Date of Birth</p></h4>
+    <label for="Date"><p>Date:</p></label>
+    <input type="number" name="date" id="date" step="1" min="1" max="31" required>
+    <label for="Month"><p>Month:</p></label>
+     <select id="Month" name="Month">
+      <option value=" " selected hidden disabled> </option>
+      <option value="January">January</option>
+      <option value="February">February</option>
+      <option value="March">March</option>
+      <option value="April">April</option>
+      <option value="May">May</option>
+      <option value="June">June</option>
+      <option value="July">July</option>
+      <option value="August">August</option>
+      <option value="September">September</option>
+      <option value="October">October</option>
+      <option value="November">November</option>
+      <option value="December">December</option>
+      </select>
+      <br><br>
+      <label for="Year"><p>Year:</p></label>
+      <input type="number" name="Year" id="Year" min="1920" max="2008" required>
+      <br>
+      <h4><p>Gender</p></h4>
+      <h4>
+      <input type="radio" name="Gender" id="Male" value="Gender">
+      <label for="Male"><p>Male</p></label>
+      <input type="radio" name="Gender" id="Female" value="Gender">
+      <label for="Female"><p>Female</p></label>
+      </h4>
+      <br>
+      <h4>
+      <label for="phone-number"><p>Phone number: </p></label>
+      <select id="phone-number" required>
+        <option value=" " selected hidden disabled> </option>
+        <option> +230 </option>
+        <option> +231 </option>
+        <option> +232 </option>
+        <option> +233 </option>
+        <option> +234 </option>
+        <option> +235 </option>
+        <option> +236 </option>
+        <option> +237 </option>
+        <option> +238 </option>
+        <option> +239 </option>
+    </select>
+      <input type="number" name="phone-number" id="phone-number" placeholder="XXXX-XXXX-XXX" required>
+      <br><br><br>
+      <label for="email-address"><p>Email-Address: </p></label>
+      <input type="email" name="email-address" id="email-address" placeholder="example@gmail.com"required>
+      </h4>
+      <label for="submit"></label>
+      <input type="submit" id="submit" value="SIGN UP">
+    </fieldset>
+      <div id="copyright">
+      <p> &copy; Traffiko 2022 <p>  
+      </div>
+      <br>
+</form>
+</body>
+</html>

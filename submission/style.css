@@ -1,0 +1,185 @@
+/** All the styles for the form page **/
+#ME-Chat{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(255, 255, 255);
+}
+
+header{
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+a[href*='submission.html'] {
+    color: blue;
+}
+
+a:hover {
+    color: green;
+}
+
+#submit { 
+    border: none;
+    margin-top: 30px;
+    margin-left: 120px;
+    border-radius: 16px;
+    padding: 16px;
+    border-width: 2px;
+    color: white;
+    background-color: #4056F4;
+    width: 120px;
+    object-position: center;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+#submit:hover {
+    color: white;
+    background-color: rgb(75, 72, 221);
+    border-color: #4056F4;
+}
+
+.notification {
+    background-color: white;
+    width: 450px;
+    height: 250px;
+    margin-top: 250px;
+    margin-bottom: 100px;
+    margin-left: 580px;
+    border-color: #4056F4; 
+    border-radius: 12px;
+}
+
+#submission {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: white
+}
+
+#Firstname,
+#Middlename,
+#Lastname,
+#Username,
+#phone-number,
+#email-address,
+#date,
+#Month,
+#Year {
+    padding: 0.5em;
+    border-color: #4056F4;
+    border-width: 1px;
+    background-color: whitesmoke;
+    border-radius: 5px;
+}
+
+#Male,
+#Female{
+    padding: 1em;
+}
+
+#Firstname:hover {
+    background-color: aliceblue;
+}
+
+
+#Middlename:hover {
+    background-color: aliceblue;
+}
+
+#Lastname:hover {
+    background-color: aliceblue;
+}
+
+#Username:hover {
+    background-color: aliceblue;
+}
+
+#phone-number:hover {
+    background-color: aliceblue;
+}
+
+#email-address:hover {
+    background-color: aliceblue;
+}
+
+#date:hover {
+    background-color: aliceblue;
+}
+
+#Month:hover {
+    background-color: aliceblue;
+}
+
+#Year:hover {
+    background-color: aliceblue;
+}
+
+
+#mainlogo {
+    height:270px;
+    width: 280px;
+    margin-left: 650px;
+    margin-top: 50px;
+}
+
+#mainlogo1 {
+    height:270px;
+    width: 280px;
+    margin-left: 50px;
+    margin-top: -30px;
+}
+
+#form {
+        background-color: white;
+        color: rgba(0, 0, 0, 0.781);
+        width: 400px;
+        height: 1400px;
+        margin-top: 20px;
+        margin-bottom: 100px;
+        margin-left: 600px;
+        border-color: #4056F4;
+        border-radius: 32px;
+        border: none;
+        padding-top: 45px;
+        padding-left: 40px;
+        box-shadow: rgb(204, 219, 232) -10px 10px;
+    }
+    
+p{
+        font-family: sans-serif;
+    }
+
+#copyright{
+    height: 40px;
+    background-color: #4056F4;
+    color: white;
+    margin-top: 400px;
+    padding: 5px;
+    font-weight: 700;
+}
+
+#resendemail {
+    border-color: #4056F4 ;
+    border-radius: 24px;
+    border-width: 2px;
+    margin-top: 15px;
+    margin-left: 150px;
+    padding: 16px;
+    color: white;
+    background-color: #4056F4;
+    width: 130px;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+#resendemail:hover {
+    border-color: #4056F4 ;
+    border-radius: 24px;
+    border-width: 2px;
+    margin-top: 15px;
+    margin-left: 150px;
+    padding: 16px;
+    color: white;
+    background-color: #4552b6;
+    width: 130px;
+    font-size: 15px;
+    font-weight: 600;
+}
